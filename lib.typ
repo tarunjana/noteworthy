@@ -1,7 +1,7 @@
 
 // All imports
 #import "@preview/theoretic:0.1.1" as theoretic: theorem, proof, qed
-#import "@preview/showybox:2.0.3": showybox
+#import "@preview/showybox:2.0.4": showybox
 
 // Main noteworthy function
 #let noteworthy(
