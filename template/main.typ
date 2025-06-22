@@ -8,6 +8,7 @@
   author: "Your Name",
   contact-details: "https://example.com", // Optional: Maybe a link to your website, or phone number
   toc-title: "Table of Contents",
+  watermark: "DRAFT", // Optional: Watermark for the document
 )
 
 // Write here

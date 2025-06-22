@@ -12,6 +12,7 @@
   author: none,
   contact-details: none,
   toc-title: "Table of Contents",
+  watermark: none,
   content,
 ) = {
   // Document metadata
@@ -24,6 +25,9 @@
   // Page settings
   set page(
     paper: paper-size,
+    background: if watermark != none {
+      rotate(-40deg, text(30pt, fill: rgb("FFCBC4"))[*#watermark*])
+    },
     header: context {
       if (counter(page).get().at(0) > 1) [
         #grid(
