@@ -10,6 +10,7 @@
   language: "EN",
   title: none,
   header-title: none,
+  date: none,
   author: none,
   contact-details: none,
   toc-title: "Table of Contents",
@@ -39,7 +40,11 @@
           } else {
             title
           }),
-          datetime.today().display("[day]/[month]/[year]"),
+          if date != none {
+            date
+          } else {
+            datetime.today().display("[day]/[month]/[year]")
+          },
         )
         #line(length: 100%)
       ]
