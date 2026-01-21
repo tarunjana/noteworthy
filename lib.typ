@@ -91,6 +91,7 @@
 
   // Table of contents
   showybox(
+    breakable: true,
     outline(
       indent: auto,
       title: toc-title,
