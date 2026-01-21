@@ -9,6 +9,7 @@
   font: "New Computer Modern",
   language: "EN",
   title: none,
+  header-title: none,
   author: none,
   contact-details: none,
   toc-title: "Table of Contents",
@@ -33,7 +34,12 @@
         #grid(
           columns: (1fr, 1fr),
           align: (left, right),
-          smallcaps(title), datetime.today().display("[day]/[month]/[year]"),
+          smallcaps(if header-title != none {
+            header-title
+          } else {
+            title
+          }),
+          datetime.today().display("[day]/[month]/[year]"),
         )
         #line(length: 100%)
       ]
