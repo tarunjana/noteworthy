@@ -1,4 +1,4 @@
-#import "@preview/noteworthy:0.2.1": *
+#import "@preview/noteworthy:0.3.0": *
 
 #show: noteworthy.with(
   paper-size: "a4",
