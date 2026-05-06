@@ -16,6 +16,7 @@
   author: none,
   contact-details: none,
   toc-title: "Table of Contents",
+  toc-depth: none,
   watermark: none,
   content,
 ) = {
@@ -108,7 +109,7 @@
     outline(
       indent: auto,
       title: toc-title,
-      depth: 2,
+      depth: toc-depth,
     ),
   )
 

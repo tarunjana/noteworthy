@@ -10,6 +10,7 @@
   author: "Your Name",
   contact-details: "https://example.com", // Optional: Maybe a link to your website, or phone number
   toc-title: "Table of Contents",
+  toc-depth: 2,
   watermark: "DRAFT", // Optional: Watermark for the document
 )
 
