@@ -43,87 +43,19 @@ typst compile main.typ
 
 Noteworthy provides the following configuration options:
 
-### `paper-size`
-
-**Purpose:** It sets page size for layout and printing.
-**Default:** `"a4"`
-**Optional:** Yes
-
----
-
-### `font`
-
-**Purpose:** It sets the primary font for your document. You may set any font available in your system.
-**Default:** `"New Computer Modern"`
-**Optional:** Yes
-
----
-
-### `language`
-
-**Purpose:** Controls localization and hyphenation rules.
-**Default:** `"EN"`
-**Optional:** If the language is English, you don't need to set it explicitly.
-Otherwise, it is recommended to set the language according to the
-[typst documentation](https://typst.app/docs/reference/text/text/#parameters-lang)
-
----
-
-### `title`
-
-**Purpose:** It is the title of the document.
-**Default:** `none`
-**Optional:** No
-
----
-
-### `header-title`
-
-**Purpose:** If the `title` is long enough, you should set a shorter `header-title`. It
-will be used at the header of each page (except the first one).
-**Default:** `none`
-**Optional:** Yes
-
----
-
-### `date`
-
-**Purpose:** It controls the date displayed at the header of each page (except the first one).
-If it is absent, the current system date will be used.
-**Default:** `none`
-**Optional:** Yes
-
----
-
-### `author`
-
-**Purpose:** It sets the author name.
-**Default:** `none`
-**Optional:** No
-
----
-
-### `contact-details`
-
-**Purpose:** It sets the contact details of the author. It may be a website url or a phone number.
-**Default:** `none`
-**Optional:** Yes
-
----
-
-### `toc-title`
-
-**Purpose:** It sets the Table of Contents title.
-**Default:** `"Table of Contents"`
-**Optional:** Yes
-
----
-
-### `watermark`
-
-**Purpose:** It sets the watermark text.
-**Default:** `none`
-**Optional:** Yes
+| Configuration Option | Purpose | Default Value | Optional |
+|---|---|---|---|
+| `paper-size` | Sets page size for layout and printing. | `"a4"` | Yes |
+| `font` | Sets the primary font for your document. You may set any font available in your system. | `"New Computer Modern"` | Yes |
+| `language` | Controls localization and hyphenation rules. | `"EN"` | Yes* |
+| `title` | Sets the title of the document. | `none` | No |
+| `header-title` | If the title is long, this shorter version is used in the header of each page (except the first one). | `none` | Yes |
+| `date` | Controls the date displayed in the header of each page (except the first one). If absent, the current system date is used. | `none` | Yes |
+| `author` | Sets the author name. | `none` | No |
+| `contact-details` | Sets the contact details of the author. It may be a website URL or a phone number. | `none` | Yes |
+| `toc-title` | Sets the Table of Contents title. | `"Table of Contents"` | Yes |
+| `toc-depth` | Sets the Table of Contents depth. Recommended value is `2` | `none` | Yes |
+| `watermark` | Sets the watermark text. | `none` | Yes |
 
 ---
 
