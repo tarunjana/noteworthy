@@ -1,6 +1,6 @@
 
 // All imports
-#import "@preview/theoretic:0.3.0" as theoretic: proof, qed, theorem
+#import "@preview/theoretic:0.3.1" as theoretic: proof, qed, theorem
 #import theoretic.presets.basic: *
 #show ref: theoretic.show-ref
 #import "@preview/showybox:2.0.4": showybox
